@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:id="@+id/headerScroll"
+            android:layout_height="60dp">
+
+
+        <LinearLayout android:orientation="horizontal"
+            android:background="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:id="@+id/txtNo"
+                    android:textStyle="bold"
+                    android:layout_marginStart="5dp"
+                    android:text="No"
+                    android:textAllCaps="true"
+                    android:gravity="center|start"
+                    android:textColor="@android:color/black"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:id="@+id/txtCode"
+                    android:textStyle="bold"
+                    android:layout_marginStart="5dp"
+                    android:text="Code Material"
+                    android:textAllCaps="true"
+                    android:gravity="center|start"
+                    android:textColor="@android:color/black"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"/>
+                <TextView
+                    android:layout_width="70dp"
+                    android:id="@+id/txtLokasi"
+                    android:textStyle="bold"
+                    android:layout_marginStart="5dp"
+                    android:text="Lokasi"
+                    android:textAllCaps="true"
+                    android:gravity="center|start"
+                    android:textColor="@android:color/black"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:id="@+id/txtRack"
+                    android:textStyle="bold"
+                    android:layout_marginStart="5dp"
+                    android:text="Rack Number"
+                    android:textAllCaps="true"
+                    android:gravity="center|start"
+                    android:textColor="@android:color/black"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"/>
+                <TextView
+                    android:layout_width="150dp"
+                    android:id="@+id/txtMaterial"
+                    android:textStyle="bold"
+                    android:layout_marginStart="5dp"
+                    android:text="Material Description"
+                    android:textAllCaps="true"
+                    android:gravity="center|start"
+                    android:textColor="@android:color/black"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"/>
+                <TextView
+                    android:layout_width="120dp"
+                    android:id="@+id/txtDept"
+                    android:textStyle="bold"
+                    android:layout_marginStart="5dp"
+                    android:text="Dept"
+                    android:textAllCaps="true"
+                    android:gravity="center|start"
+                    android:textColor="@android:color/black"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"/>
+                <TextView
+                    android:layout_width="80dp"
+                    android:id="@+id/txtUom"
+                    android:textStyle="bold"
+                    android:layout_marginStart="5dp"
+                    android:text="UOM"
+                    android:textAllCaps="true"
+                    android:gravity="center|start"
+                    android:textColor="@android:color/black"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"/>
+                <TextView
+                    android:layout_width="120dp"
+                    android:id="@+id/txtBegStck"
+                    android:textStyle="bold"
+                    android:layout_marginStart="5dp"
+                    android:text="Begining Stock"
+                    android:textAllCaps="true"
+                    android:gravity="center|start"
+                    android:textColor="@android:color/black"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:id="@+id/txtPriceU"
+                    android:textStyle="bold"
+                    android:layout_marginStart="5dp"
+                    android:text="Price/unit"
+                    android:textAllCaps="true"
+                    android:gravity="center|start"
+                    android:textColor="@android:color/black"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:id="@+id/txtTotal_"
+                    android:textStyle="bold"
+                    android:layout_marginStart="5dp"
+                    android:text="Total_"
+                    android:textAllCaps="true"
+                    android:gravity="center|start"
+                    android:textColor="@android:color/black"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:id="@+id/txtDate"
+                    android:textStyle="bold"
+                    android:layout_marginStart="5dp"
+                    android:text="Date"
+                    android:textAllCaps="true"
+                    android:gravity="center|start"
+                    android:textColor="@android:color/black"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:id="@+id/txtIn"
+                    android:textStyle="bold"
+                    android:layout_marginStart="5dp"
+                    android:text="Input"
+                    android:textAllCaps="true"
+                    android:gravity="center|start"
+                    android:textColor="@android:color/black"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:id="@+id/txtOut"
+                    android:textStyle="bold"
+                    android:layout_marginStart="5dp"
+                    android:text="Output"
+                    android:textAllCaps="true"
+                    android:gravity="center|start"
+                    android:textColor="@android:color/black"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:id="@+id/txtNote"
+                    android:textStyle="bold"
+                    android:layout_marginStart="5dp"
+                    android:text="Note"
+                    android:textAllCaps="true"
+                    android:gravity="center|start"
+                    android:textColor="@android:color/black"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:id="@+id/txtStock"
+                    android:textStyle="bold"
+                    android:layout_marginStart="5dp"
+                    android:text="Stock"
+                    android:textAllCaps="true"
+                    android:gravity="center|start"
+                    android:textColor="@android:color/black"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:id="@+id/txtTotS"
+                    android:textStyle="bold"
+                    android:layout_marginStart="5dp"
+                    android:text="Total_s"
+                    android:textAllCaps="true"
+                    android:gravity="center|start"
+                    android:textColor="@android:color/black"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"/>
+        </LinearLayout>
+        </HorizontalScrollView>
+</LinearLayout>
